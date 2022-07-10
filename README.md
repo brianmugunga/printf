@@ -11,11 +11,11 @@ Write a function that produces output according to a format.
 - s
 - %
 
-Handle the following conversion specifiers:
+0. Handle the following conversion specifiers:
 - d
 - i
 
-Create a man page for your function.
+1. Create a man page for your function.
 
 
 ###### *Authors*
