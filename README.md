@@ -7,12 +7,14 @@ This project is requested by ALX School.
 
 ###### *Tasks required for this project*
 Write a function that produces output according to a format.
-c
-s
-%
+-c
+-s
+-%
+
 Handle the following conversion specifiers:
-d
-i
+-d
+-i
+
 Create a man page for your function.
 
 
