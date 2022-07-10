@@ -15,4 +15,21 @@ int print_rot13(va_list arg);
 int print_rev(va_list arg);
 int print_base16_upper_lower(va_list arg, char *representation);
 int loop_format(va_list arg, const char *string);
+
+//the below to me are what i think should be in our header file.
+
+int _printf(const char *format, ...);
+int print_c(va_list args);
+int print_s(va_list args);
+int print_d(va_list args);
+int print_i(va_list args);
+int _putchar(char c);
+int print_percent(va_list args);
+int (*get_func(char x))(va_list args);
+
+typedef struct specifier
+{
+	char *valid;
+	int (*f)(va_list);
+} spec;
 #endif
