@@ -18,4 +18,6 @@ Create a man page for your function.
 
 ###### *Authors*
 
-1. https://github.com/brianmugunga
+1. Mugunga Brian
+2. Hezron Liambila
+ 
