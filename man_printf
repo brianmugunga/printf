@@ -1,3 +1,5 @@
+.\" Manpage for Our _Printf Project.
+.\"
 .TH man  "10 July 2022" "0.10" "_printf man page"
 .SH NAME
 .B _printf
