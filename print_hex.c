@@ -114,4 +114,18 @@ int print_p(va_list p)
 		m /= 16;
 		a[i] = (n / m) % 16;
 	}
+	for (i = 0, sum = 0; i < 16; i++)
+	{
+		sum += a[i];
+		if (sum || i == 15)
+		{
+			if (a[i] < 10)
+				_putchar('0' + a[i]);
+			else
+				_putchar('0' + ('a' - ':') + a[i]);
+			count++;
+		}
+	}
+	return (count);
+}
 
