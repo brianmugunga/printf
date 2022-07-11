@@ -76,4 +76,8 @@ int _printf(const char *format, ...)
 			i += 2;
 		else
 			i++;
+		}
+	va_end(valist);
+	return (count);
+}
 	
