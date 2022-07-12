@@ -1,6 +1,5 @@
 #include "main.h"
 
-
 void cleanup(va_list args, buffer_t *output);
 int run_printf(const char *format, va_list args, buffer_t *output);
 int _printf(const char *format, ...);
@@ -36,7 +35,7 @@ int run_printf(const char *format, va_list args, buffer_t *output)
 	for (i = 0; *(format + i); i++)
 	{
 		len = 0;
-		if (*(format + i) == '%')
+ (*(format + i) == '%')
 		{
 			tmp = 0;
 			flags = handle_flags(format + i + 1, &tmp);
@@ -83,7 +82,7 @@ int _printf(const char *format, ...)
 	if (output == NULL)
 		return (-1);
 
-	va_start(args, format);
+va_start(args, format);
 
 	ret = run_printf(format, args, output);
 
